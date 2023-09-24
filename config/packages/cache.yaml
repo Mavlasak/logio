@@ -1,0 +1,8 @@
+framework:
+    cache:
+        directory: '%kernel.cache_dir%/pools'
+        pools:
+            custom_thing.cache:
+                adapter: cache.app
+            filesystem_cache_pool:
+                adapter: cache.adapter.filesystem
